@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+    color: rgb(30, 28, 28);
+}
+.main {
+    background-color: rgb(206, 201, 201);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-list {
+    list-style: none;
+    display: flex
+}
+.menu-list li {
+    margin: 10px;
+}
